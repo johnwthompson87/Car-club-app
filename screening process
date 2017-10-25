@@ -1,0 +1,46 @@
+print "Welcome to Gully Squad main page"
+
+Myname = raw_input ("What is your name? ")
+print "Hello %s" % (Myname)
+
+Make = input ("What make of car do you drive?   Select 1-5 ")
+Nissan = 1
+Audi = 2
+BMW = 3
+Mercedes = 4
+Jaguar = 5
+# How does one define an input?
+if Make == 1 : 
+	print "Great lets keep going!"   
+	ModelNissan = input ("What model Nissan do you drive? ")
+
+if Make == 2 :
+	print "Great lets keep going!"
+	ModelAudi = input ("What Model Audi do you drive? ")
+
+if Make == 3 :
+	print "Great lets keep going!"
+	ModelBmw = input ("What model BMW do you drive? ")
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
